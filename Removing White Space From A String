@@ -1,0 +1,12 @@
+package DocotJanice;
+
+public class RemovingWhiteSpaceFromString {
+
+    public static void main(String[] args) {
+
+        String x = " H E L L O WO R L D";
+
+        x = x.replaceAll("\\s","");
+        System.out.println(x);
+    }
+}
